@@ -1,0 +1,13 @@
+[package]
+name = "file-syncer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yaml-rust = "0.4"
+notify = "4.0.0"
+threadpool = "1.8.0"
+chan = "0.1.23"
+chan-signal = "0.3.3"
